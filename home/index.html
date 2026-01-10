@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>QuantOS</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../ui/styles.css">
+</head>
+<body>
+    <!-- Navbar -->
+    <nav class="navbar">
+        <div class="logo">QuantOS</div>
+        <ul class="nav-links">
+            <li><a href="#features">Features</a></li>
+            <li><a href="#data">Data</a></li>
+            <li><a href="#signup">Get Access</a></li>
+        </ul>
+    </nav>
+
+    <!-- Hero Section -->
+    <header class="hero">
+        <!-- Canvas for Matrix background -->
+        <canvas id="matrixCanvas"></canvas>
+
+        <div class="hero-content">
+            <h1>All Your Financial Data, One Platform</h1>
+            <p>30+ years of clean, reliable, multi-asset financial data — from stocks, crypto, FX, indices, to company fundamentals and economic indicators.</p>
+            <a href="#signup" class="cta-btn hero-btn">Get Started</a>
+        </div>
+    </header>
+
+    <!-- Features Section -->
+    <section id="features" class="features">
+        <h2>Why QuantOS</h2>
+        <div class="feature-grid">
+            <div class="feature-card">
+                <h3>Comprehensive</h3>
+                <p>Over 30 years of financial and economic data across all major asset classes.</p>
+            </div>
+            <div class="feature-card">
+                <h3>Reliable</h3>
+                <p>Clean, verified, and continuously updated data you can trust.</p>
+            </div>
+            <div class="feature-card">
+                <h3>Flexible</h3>
+                <p>Download, filter, and integrate data seamlessly with your tools.</p>
+            </div>
+            <div class="feature-card">
+                <h3>Insightful</h3>
+                <p>Advanced analytics-ready structure to empower models, research, and reporting.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Data Showcase Section -->
+    <section id="data" class="data-section">
+        <h2>Data at Your Fingertips</h2>
+        <div class="data-grid">
+            <div class="data-card">
+                <h4>Stocks & Indices</h4>
+                <p>Daily OHLC, volumes, dividends, and splits for thousands of symbols.</p>
+            </div>
+            <div class="data-card">
+                <h4>Crypto</h4>
+                <p>Historical prices, market caps, and liquidity across major cryptocurrencies.</p>
+            </div>
+            <div class="data-card">
+                <h4>FX & Commodities</h4>
+                <p>Major, minor, and exotic currency pairs plus commodity prices in real-time.</p>
+            </div>
+            <div class="data-card">
+                <h4>Fundamentals & Indicators</h4>
+                <p>Balance sheets, income statements, GDP, CPI, employment stats, and more.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="globalHighlight" class="global-highlight">
+        <div class="highlight-container">
+            <h2>Data Without Borders</h2>
+            <div class="dynamic-text-wrapper">
+                
+            </div>
+        </div>
+    </section>
+
+    <!-- Call to Action / Signup -->
+    <section id="signup" class="signup">
+        <h2>Get Access to QuantOS</h2>
+        <p>Start building your models and insights with trusted, multi-decade financial data.</p>
+        <form class="signup-form" id="signupForm">
+            <input type="email" placeholder="Enter your email" required>
+            <button type="submit">Request Access</button>
+        </form>
+        <p class="form-msg" id="formMsg"></p>
+    </section>
+
+    <!-- Footer -->
+    <footer id="contact">
+        <div class="footer-content">
+            <p>© 2026 QuantOS. All Rights Reserved.</p>
+            <div class="footer-links">
+                <a href="#features">Features</a>
+                <a href="#data">Data</a>
+                <a href="#signup">Get Access</a>
+            </div>
+        </div>
+    </footer>
+
+    <script src="../backend/script.js"></script>
+</body>
+</html>
